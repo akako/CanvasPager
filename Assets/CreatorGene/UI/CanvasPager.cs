@@ -1,4 +1,13 @@
-﻿using UnityEngine;
+﻿/**
+CreatorGene.UI.CanvasPager
+
+Copyright (c) CREATOR GENE
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
@@ -71,14 +80,8 @@ namespace CreatorGene.UI
             foreach (var page in pages)
             {
                 page.OnHideComplete();
-                GameObject.Destroy(page.gameObject);
+                Destroy(page.gameObject);
             }
-        }
-
-        static void Add(CanvasPager page)
-        {
-            pages.Add(page);
-            page.Show();
         }
 
         protected override void Awake()
@@ -164,7 +167,7 @@ namespace CreatorGene.UI
             DestroyAll();
         }
 
-        void Show()
+        private void Show()
         {
             if (_isRootPage)
             {
