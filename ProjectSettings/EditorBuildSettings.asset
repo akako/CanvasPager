@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/CreatorGene/Samples/CanvasPagerSample/CanvasPagerSample.unity
+    guid: e3c7e9f2c708a499d9e16400e2d4f46e
+  - enabled: 1
+    path: Assets/CreatorGene/Samples/CanvasPagerSample/CanvasPagerSamplePage1.unity
+    guid: 6a9d46ee4a0574b5f876514759ce82a0
+  - enabled: 1
+    path: Assets/CreatorGene/Samples/CanvasPagerSample/CanvasPagerSamplePage2.unity
+    guid: 5dc9d794c6c8242dba5019bd0d62f267
+  m_configObjects: {}
