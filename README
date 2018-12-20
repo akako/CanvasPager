@@ -11,3 +11,6 @@ CanvasPagerクラス単体で使うもよし、継承して使うもよし。
 
 ## 依存アセット
 - DOTween
+
+## License
+MIT
